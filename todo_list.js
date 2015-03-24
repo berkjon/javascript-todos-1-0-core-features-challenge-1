@@ -53,10 +53,6 @@ newTodoList.prototype.complete = function(task) {
   this.list[index].completed = true
 }
 
-function add_this() {
-  list.list.push(document.getElementById("toAdd").value)
-
-}
 
 // Driver code
 var list = new newTodoList();
